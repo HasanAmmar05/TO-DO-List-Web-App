@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List App</title>
+    <link rel="stylesheet" href="TODO_List.css">
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h2>User Statistics</h2>
+            <ul id="user-stats"></ul>
+        </div>
+        <div id="todo-list">
+            <h1>TO-DO List</h1>
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="Add a task">
+                <input type="date" id="due-date">
+                <button type="submit">Add</button>
+            </form>
+            <ul id="tasks"></ul>
+        </div>
+
+        <div id="sidebar">
+            
+            <ul id="user-stats"></ul>
+            
+            <h3>Manage Users</h3>
+            <form id="user-form">
+                <input type="text" id="user-input" placeholder="Add a new user">
+                <button type="submit">Add User</button>
+                
+            </form>
+            <ul id="user-list"></ul>
+        </div>
+        
+        <div id="sidebar">
+            
+            <ul id="user-stats"></ul>
+            
+            <h3>Switch User</h3>
+            <select id="user-switcher">
+                
+            </select>
+        </div>
+
+
+        
+    </div>
+    <script src="TODO_List.js"></script>
+</body>
+</html>
